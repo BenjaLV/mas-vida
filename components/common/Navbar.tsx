@@ -32,7 +32,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed top-0 w-full h-24 bg-primaryGreen'>
+        <div className='absolute top-0 w-full h-24 bg-primaryGreen'>
             <header className='w-full px-44 py-0 font-medium '>
 
                 <button className='absolute top-11 left-6 flex-col justify-center items-center xl:hidden lg:hidden' onClick={handleClick}>
