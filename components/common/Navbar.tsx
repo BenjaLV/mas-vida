@@ -32,7 +32,7 @@ const Navbar = () => {
 
 
     return (
-        <div className='fixed top-0 w-full h-24 bg-primaryGreen'>
+        <div className='absolute top-0 w-full h-24 bg-primaryGreen'>
             <header className='w-full px-44 py-0 font-medium '>
 
                 <button className='absolute top-11 left-6 flex-col justify-center items-center xl:hidden lg:hidden' onClick={handleClick}>
@@ -47,7 +47,7 @@ const Navbar = () => {
 
                 <div className='w-full flex justify-around items-center mt-[-130px] xl:mx-56 lg:mx-52 mx-36'>
                     <nav className='flex items-center space-x-4 md:hidden sm:hidden xs:hidden'>
-                        <NavigationLink href='#home' text='Sobre nosotros' />
+                        <NavigationLink href='#about' text='Sobre nosotros' />
                         <NavigationLink href='#' text='Productos' />
                     </nav>
                     <nav className='flex items-center space-x-4 md:hidden sm:hidden xs:hidden'>
@@ -72,8 +72,8 @@ const Navbar = () => {
                             animate={{ scale: 1, opacity: 1, transition: { 2: 2 } }}
                             className='min-w-[70vw] flex flex-col justify-between z-30 items-center fixed top-1/2 left-1/2  -translate-x-1/2 -translate-y-1/2 bg-primaryGreen/70 rounded-lg backdrop-blur-md py-32'>
                             <nav className='flex items-center flex-col justify-center'>
-                                <NavigationLink href="#home" text="Sobre nosotros" toggle={handleClick} />
-                                <NavigationLink href="/" text="Productos" toggle={handleClick} />
+                                <NavigationLink href="#about" text="Sobre nosotros" toggle={handleClick} />
+                                <NavigationLink href="#" text="Productos" toggle={handleClick} />
                             </nav>
                             <nav className='flex items-center space-x-2 mt-4'>
                                 <motion.a
