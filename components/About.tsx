@@ -7,7 +7,7 @@ import CarouselReact from './common/Carousel'
 const About = () => {
     return (
         <div id='about' className='relative flex justify-center items-center h-screen w-full'>
-            <div className="absolute w-1/2 sm:w-full xs:w-full h-auto m-auto top-24 left-0 bottom-0 right-0 rounded overflow-auto shadow-lg">
+            <div className="absolute w-[80%] sm:w-full xs:w-full h-auto m-auto top-28 left-0 bottom-0 right-0 rounded overflow-auto shadow-lg">
                 <CarouselReact className='w-1/2 h-auto mx-auto mt-8' />
                 {/* <Image className="w-full h-auto " src={masVidaLogo} alt="Mas Vida Logo" /> */}
                     <div className="px-6 py-4">
